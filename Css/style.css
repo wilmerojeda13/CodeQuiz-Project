@@ -1,0 +1,57 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat+Alternates:wght@300&family=Montserrat:wght@500&family=Nunito:wght@200;300;400&family=Open+Sans:ital,wght@0,300;0,800;1,300;1,400&display=swap');
+
+
+/*Colors roots that we're going to use in theh project*/
+:root {
+    --white:#fff ;
+    --black: #1c2b2d ;
+    --blue: #fdfdff ;
+    --light-blue: #b8cddb ;
+    --color-primary: #9d0191 ;
+    --color-sec: #db6400 ;
+    --color-grey: #eee ;
+    --color-dark-grey: #222831 ;
+}
+ * {
+     margin: 0 ;
+     padding: 0 ;
+     box-sizing: border-box;
+ }
+
+ html {
+     font-size: 10px;
+ }
+
+ body {
+    font-family: 'Opens Sans' sans-serif;
+    background-color: var(--light-blue);
+ }
+
+ p {
+     font-size: 1.6rem;
+     line-height: 1.5;
+ }
+
+ img {
+     width: 100%;
+ }
+
+ /* Start */
+ .container {
+     max-width: 900px;
+     margin: 0 auto ;
+     padding: 0 2rem;
+     display: flex ;
+     justify-content: center;
+     align-items: center ;
+     height: 100vh; 
+ }
+
+ .quiz-box {
+     width: 600px;
+     margin: 0 auto ;
+     background-color:#eee ;
+     padding: 1rem 5rem 5rem 5rem;
+
+ }
