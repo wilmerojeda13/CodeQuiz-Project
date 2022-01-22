@@ -22,4 +22,4 @@
 - Screenshot 
 
 ## Screenshots
-![ScreenShot] 
+![ScreenShot] (https://github.com/wilmerojeda13/CodeQuiz-Project/blob/main/Images/Screenshot%20.png)
